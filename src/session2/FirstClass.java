@@ -1,4 +1,4 @@
-package Session2;
+package session2;
 
 public class FirstClass {
 
