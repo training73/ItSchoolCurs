@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 
 public class DateUtilVsSql {
 
-    public static void main(String[] args) {
+    static void main() {
 
         // 1. JAVA.UTIL.DATE
         // Momentul inregistrarii comenzii

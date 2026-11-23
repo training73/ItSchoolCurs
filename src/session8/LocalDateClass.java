@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class LocalDateClass {
 
-    public static void main(String[] args) {
+    static void main() {
 
         // Data inregistrarii comenzii
         LocalDate orderDate = LocalDate.now();
