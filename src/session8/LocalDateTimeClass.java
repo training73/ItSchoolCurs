@@ -46,5 +46,15 @@ public class LocalDateTimeClass {
         // Transformam LocalDateTime in LocalDate
         System.out.println("Doar data: "
                 + customMeeting.toLocalDate());
+
+//        Pattern	            Rezultat
+//        dd-MM-yyyy	        19-12-2025
+//        dd/MM/yyyy	        19/12/2025
+//        yyyy.MM.dd	        2025.12.19
+//        dd MMM yyyy	        19 Dec 2025
+//        dd MMMM yyyy	        19 December 2025
+//        dd-MM-yyyy HH:mm	    19-12-2025 14:30
+//        dd-MM-yyyy HH:mm:ss	19-12-2025 14:30:45
+//        yyyy-MM-dd HH:mm:ss	2025-12-19 14:30:45
     }
 }
