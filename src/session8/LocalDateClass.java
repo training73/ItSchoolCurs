@@ -18,19 +18,15 @@ public class LocalDateClass {
         System.out.println("Data livrarii: " + deliveryDate);
 
         // Verificam ziua saptamanii
-        System.out.println("Livrarea va avea loc: "
-                + deliveryDate.getDayOfWeek());
+        System.out.println("Livrarea va avea loc: " + deliveryDate.getDayOfWeek());
 
         // Verificam daca livrarea este dupa comanda
-        System.out.println("Livrarea este dupa comanda? "
-                + deliveryDate.isAfter(orderDate));
+        System.out.println("Livrarea este dupa comanda? " + deliveryDate.isAfter(orderDate));
 
         // Formatare cu pattern
-        DateTimeFormatter formatter =
-                DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
-        System.out.println("Data comenzii formatata: "
-                + orderDate.format(formatter));
+        System.out.println("Data comenzii formatata: " + orderDate.format(formatter));
 
         // Transformare String in LocalDate
         String text = "19-12-2025";
@@ -40,10 +36,8 @@ public class LocalDateClass {
         System.out.println("Data introdusa: " + customDate);
 
         // Alt format
-        DateTimeFormatter formatter2 =
-                DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        System.out.println("Data in alt format: "
-                + customDate.format(formatter2));
+        System.out.println("Data in alt format: " + customDate.format(formatter2));
     }
 }
